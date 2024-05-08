@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as r,d as s,f as c}from"./index.41bf9c1b.js";const n={},_={class:"SystemLogger"};function a(m,d){const e=t("router-view");return r(),s("div",_,[c(e)])}const i=o(n,[["render",a]]);export{i as default};

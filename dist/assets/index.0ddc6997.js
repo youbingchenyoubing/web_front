@@ -1,0 +1,1 @@
+import{bh as e,cn as s}from"./index.41bf9c1b.js";const r=t=>e({url:"/system/dict/type/page",loading:!0,data:t}),p=t=>e({url:"/system/dict/type/delete/"+t.id,loading:!0}),d=t=>e({url:"/system/dict/type/get/"+t.id,loading:!0}),a=t=>s({url:"/system/dict/type/add",loading:!0,data:t}),u=t=>s({url:"/system/dict/type/update",loading:!0,data:t});export{d as A,a,u as b,r as c,p as d};

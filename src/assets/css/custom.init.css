@@ -1,0 +1,78 @@
+/* 这里用来存在全局自定义CSS */
+html {
+  font-size: 16px;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.text-overflow-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* element-plus */
+.el-button span {
+  gap: 6px;
+}
+
+.el-dialog {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.el-dialog .el-dialog__header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-shrink: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: var(--el-box-shadow-lighter);
+}
+
+.el-dialog .el-dialog__body {
+  flex: 1;
+  overflow: auto;
+}
+
+.el-dialog .el-dialog__footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: var(--el-box-shadow-lighter);
+}
+
+.el-select {
+  width: 100%;
+}
+
+.el-image__wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--el-text-color-placeholder);
+  background-color: var(--el-fill-color-light);
+}
+
+/* 动画 */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all 0.5s;
+}
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}

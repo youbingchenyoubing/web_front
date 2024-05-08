@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@router/*": [
+        "src/router/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@share/*": [
+        "src/share/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@modules/*": [
+        "modules/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ]
+    },
+    "types": [
+      "element-plus/global",
+      "unplugin-vue-define-options"
+    ]
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*",
+    "modules/**/*.vue",
+    "modules/**/*.js",
+    "modules/**/*.jsx",
+    "modules/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

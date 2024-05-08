@@ -1,0 +1,1 @@
+import{cm as t,u as s}from"./index.41bf9c1b.js";const u=t("global-auth",{actions:{vIf_auth(r){const e=s().permissions;if(!r)throw"authGlobalStore: value \u53C2\u6570\u5FC5\u4F20";return e?!!(e.includes("*:*:*")||e.includes(r)):!1}}});export{u};
